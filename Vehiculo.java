@@ -56,19 +56,19 @@ public class Vehiculo {
     return modelo;
   }
 
-  public void setAnio(String anio){
+  public void setAnio(int anio){
     this.anio = anio;
   }
 
-  public String getAnio(){
+  public int getAnio(){
     return anio;
   }
 
-  public void setPrecio(String precio){
+  public void setPrecio(double precio){
     this.precio = precio;
   }
 
-  public String getPrecio(){
+  public double getPrecio(){
     return precio;
   }
 }
