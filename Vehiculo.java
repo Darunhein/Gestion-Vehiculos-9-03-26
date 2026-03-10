@@ -12,7 +12,7 @@ public class Vehiculo {
     totalVehiculos++;
   }
 
-  public Vehiculo(String marca, String modelo, int anio, double precio, int totalVehiculos){
+  public Vehiculo(String marca, String modelo, int anio, double precio){
     this.marca = marca;
     this.modelo = modelo;
     this.anio = anio;
