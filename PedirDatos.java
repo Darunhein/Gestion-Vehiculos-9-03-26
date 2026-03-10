@@ -26,7 +26,7 @@ public class PedirDatos {
   }
 
   //Método para Enteros
-  public double pedirEntero(String mensaje) {
+  public int pedirEntero(String mensaje) {
     return pedirEntero(mensaje, Integer.MIN_VALUE, Integer.MAX_VALUE);
   }
 
