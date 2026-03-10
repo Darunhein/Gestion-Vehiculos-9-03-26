@@ -23,7 +23,7 @@ public class Vehiculo {
 
 //Methods
   public void mostrarInfo(){
-    System.out.println("Informacion del Vehiculo");
+    System.out.println("\nInformacion del Vehiculo");
     System.out.println("Marca: " + marca);
     System.out.println("Modelo: " + modelo);
     System.out.println("Año: " + anio);
