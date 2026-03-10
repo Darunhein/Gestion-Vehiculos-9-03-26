@@ -1,11 +1,13 @@
 public class Vehiculo {
 
+//Atributes
   private String marca;
   private String modelo;
   private int anio;
   private double precio;
   static int totalVehiculos;
 
+//Constructs
   public Vehiculo(){
     totalVehiculos++;
   }
@@ -19,6 +21,7 @@ public class Vehiculo {
     totalVehiculos++;
   }
 
+//Methods
   public void mostrarInfo(){
     System.out.println("Informacion del Vehiculo");
     System.out.println("Marca: " + marca);
@@ -33,6 +36,39 @@ public class Vehiculo {
 
   public void aplicarDescuento(){
     precio = precio * 0.9;
-    System.out.println("");
+    System.out.println("El precio del Vehiculo a bajado un 10%");
+  }
+
+//Setters n Getters 
+  public void setMarca(String marca){
+    this.marca = marca;
+  }
+
+  public String getMarca(){
+    return marca;
+  }
+
+  public void setModelo(String modelo){
+    this.modelo = modelo;
+  }
+
+  public String getModelo(){
+    return modelo;
+  }
+
+  public void setAnio(String anio){
+    this.anio = anio;
+  }
+
+  public String getAnio(){
+    return anio;
+  }
+
+  public void setPrecio(String precio){
+    this.precio = precio;
+  }
+
+  public String getPrecio(){
+    return precio;
   }
 }
