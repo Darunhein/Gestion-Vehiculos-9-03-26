@@ -12,6 +12,11 @@ public class Auto extends Vehiculo {
     }
 
 //Methods
+    public void tocarClaxon(){
+        System.out.println("El auto " + getMarca + " usa su claxon");
+    }
 
-
+    public void mostarPuertas(){
+        System.out.println("El numero de puertas del auto " + getMarca + " es " + numeroPuertas);
+    }
 }
